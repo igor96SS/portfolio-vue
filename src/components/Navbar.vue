@@ -18,7 +18,7 @@ const isActiveLink = (routePath) => {
 </script>
 
 <template>
-  <nav class="bg-white dark:bg-gray-900 text-white px-6 py-4 shadow-md">
+  <nav class="bg-white dark:bg-gray-900 text-gray-200 px-6 py-4 shadow-md">
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center space-x-3">
