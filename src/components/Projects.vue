@@ -1,4 +1,8 @@
 <script setup>
+import SchoolProjects from '@/assets/data/school_projects.json'
+import PersonalProjects from '@/assets/data/personal_projects.json'
+import WorkProjects from '@/assets/data/work_projects.json'
+
 import ProjectCard from './ProjectCard.vue'
 import { ref } from 'vue'
 
@@ -9,25 +13,15 @@ const toggleSection = (section) => {
   openSection.value = openSection.value === section ? null : section
 }
 
-// Dummy data for now
-const schoolProjects = [
-  { title: 'Math seen', description: 'Interactive plots using Vue and Chart.js', technologies: '', year: '', course: 'licenciatura'},
-  { title: 'Student Portal Clone', description: 'Replicated our school portal UI with Vue', technologies: '', year:'', course: 'licenciatura' },
-]
+const schoolProjects = ref(SchoolProjects);
+const workProjects = ref(WorkProjects);
+const personalProjects = ref(PersonalProjects);
 
-const workProjects = [
-  { id: 'W1', title: 'Company Dashboard', description: '', technologies: '' },
-  { id: 'W2', title: 'PoS Android Application', description: '', technologies: '' },
-]
 
-const personalProjects = [
-  { id: 'P1', title: 'Cálculo Sinais', description: 'Android Application for industrial ', technologies: 'Java; kotlin; Android Studio' },
-  { id: 'P2', title: 'Movies And Series', description: 'Personal Website to display a list of movies and series', technologies: '.NET Core WEB API; .NET Core Razor Pages; Microsoft SQL Server; C#' },
-]
 </script>
 
 <template>
-    <div class="max-w-4xl mx-auto py-10 px-4">
+    <div class="max-w-5xl mx-auto py-10 px-4">
       
       <!-- SCHOOL PROJECTS -->
       <div class="mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
@@ -52,14 +46,12 @@ const personalProjects = [
           </svg>
         </button>
   
-        <div v-show="openSection === 'school'" class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div v-show="openSection === 'school'" class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <ProjectCard
-            v-for="(project, i) in schoolProjects"
-            :key="`s${i}`"
-            :id="`s${i}`"
-            :title="project.title"
-            :description="project.description"
-            :technologies="project.technologies"
+            v-for="project in schoolProjects"
+            :key="`s${project.id}`"
+            :id="`s${project.id}`"
+            :project="project"
           />
         </div>
       </div>
@@ -87,14 +79,11 @@ const personalProjects = [
           </svg>
         </button>
   
-        <div v-show="openSection === 'work'" class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div v-show="openSection === 'work'" class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <ProjectCard
-            v-for="(project, i) in workProjects"
-            :key="`w${i}`"
-            :id="`w${i}`"
-            :title="project.title"
-            :description="project.description"
-            :technologies="project.technologies"
+            v-for="project in workProjects"
+            :key="`p${project.id}`"
+            :project="project"
           />
         </div>
       </div>
@@ -124,12 +113,9 @@ const personalProjects = [
   
         <div v-show="openSection === 'personal'" class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <ProjectCard
-            v-for="(project, i) in personalProjects"
-            :key="`p${i}`"
-            :id="`p${i}`"
-            :title="project.title"
-            :description="project.description"
-            :technologies="project.technologies"
+            v-for="project in personalProjects"
+            :key="`p${project.id}`"
+            :project="project"
           />
         </div>
       </div>
