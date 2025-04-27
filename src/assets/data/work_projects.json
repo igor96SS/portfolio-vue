@@ -1,0 +1,42 @@
+[
+	{
+		"id":"w1",
+		"title":"Rest API",
+		"shortDescription":"",
+		"description":"",
+		"technologies":["Lumen/Laravel"],
+		"year":2019
+	},
+	{
+		"id":"w2",
+		"title":"Android PoS",
+		"shortDescription":"Android mobile application of a point of sale",
+		"description":"",
+		"technologies":["Android", "Kotlin", "MVP", "ObjectBox", "NoSQL"],
+		"year":2019
+	},
+	{
+		"id":"w3",
+		"title":"CRM backoffice",
+		"shortDescription":"",
+		"description":"",
+		"technologies":["ReactJS", "Microsof SQL Server", "Lumen/Laravel", "RestAPI"],
+		"year":2019
+	},
+	{
+		"id":"w4",
+		"title":"SMS Hacking",
+		"shortDescription":"",
+		"description":"",
+		"technologies":["Android", "Java", "Kotlin", "Retrofit"],
+		"year":2024
+	},
+	{
+		"id":"w5",
+		"title":"Phishing",
+		"shortDescription":"",
+		"description":"",
+		"technologies":["Android", "Java", "Kotlin", "Retrofit"],
+		"year":2024
+	}
+]

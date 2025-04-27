@@ -1,0 +1,31 @@
+[
+	{
+		"id":"p1",
+		"title":"GesCalc",
+		"shortDescription":"Android mobile application to manage school grades",
+		"description":"",
+		"technologies":["Android", "Java", "Sqlite"],
+		"year":2016,
+		"images": []
+	},
+	{
+		"id":"p2",
+		"title":"Cálculo Sinais",
+		"shortDescription":"",
+		"description":"",
+		"technologies":["Android", "Java", "Kotlin"],
+		"year":2019,
+		"images": [],
+		"link":""
+	},
+	{
+		"id":"p3",
+		"title":"Movies and Series",
+		"shortDescription":"Web application to register movies and series",
+		"description":"",
+		"technologies":[".Net Core Razor Pages", ".Net Core Web API", "C#", "Rest Api", "Microsof SQL Server"],
+		"year":2024,
+		"images": []
+	}
+	
+]
