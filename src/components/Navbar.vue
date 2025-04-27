@@ -22,7 +22,6 @@ const isActiveLink = (routePath) => {
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center space-x-3">
-        <img class="h-10 w-auto" :src="logo" alt="logo" />
         <span class="text-2xl font-bold hidden md:inline">name</span>
       </RouterLink>
 

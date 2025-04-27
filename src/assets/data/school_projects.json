@@ -1,0 +1,53 @@
+[
+	{
+		"id":"s1",
+		"title":"Fastuga",
+		"shortDescription":"Web application for restaurant management and customer orders.",
+		"description":"Clients could see the menu and order. The Chefs had access to the orders coming in and the Employees had access to orders that where ready.",
+		"technologies":["Vue.js", "Laravel", "Docker", "Sockets.io", "Mysql", "RestAPI"],
+		"year":2023,
+		"course":"Computer Engineering",
+		"images":[]
+	},
+	{
+		"id":"s2",
+		"title":"Fastuga Driver",
+		"shortDescription":"Android mobile application for restaurant deliveries.",
+		"description":"The driver could pick an order to deliver and had access to the gps information.",
+		"technologies":["Android", "Kotlin", "RestAPI" ,"Agile Methodologies - Scrum"],
+		"year":2023,
+		"course":"Computer Engineering",
+		"images":[]
+	},
+	{
+		"id":"s3",
+		"title":"Management of Insured assets",
+		"shortDescription":"Web platform for insurance companies, experts, repair services and customers, to manage incidents involving insured assets.",
+		"description":"",
+		"technologies":["JavaEE", "Vue.js", "Docker", "RestAPI", "PostgreSQL"],
+		"year":2023,
+		"course":"Computer Engineering",
+		"images":[]
+	},
+	{
+		"id":"s4",
+		"title":"AI Mummy Maze",
+		"shortDescription":"",
+		"description":"An application that can play the Mummy Maze game using diferent types of search algorithms",
+		"technologies":["Java"],
+		"year":2022,
+		"course":"Computer Engineering",
+		"images":[]
+	},
+	{
+		"id":"s5",
+		"title":"Management, Monitoring, and Intelligent Control of Photovoltaic Energy",
+		"shortDescription":"Web application to display data collected from Solar Panels using sensors and IoT devices.",
+		"description":"",
+		"technologies":["C/C++", "ESP32","IoT", "Vue.js", "Laravel", "Docker", "MariaDB", "RestAPI", "Redis", "Chart.js"],
+		"year":2023,
+		"course":"Computer Engineering",
+		"images":[],
+		"videos":[]
+	}
+]
