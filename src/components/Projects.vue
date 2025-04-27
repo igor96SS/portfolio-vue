@@ -81,7 +81,7 @@ const personalProjects = ref(PersonalProjects);
   
         <div v-show="openSection === 'work'" class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <ProjectCard
-            v-for="project in workProjects"
+            v-for="project in workProjects.slice(0,workProjects.length-2)"
             :key="`p${project.id}`"
             :project="project"
           />
