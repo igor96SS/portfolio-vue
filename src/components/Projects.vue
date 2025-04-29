@@ -49,8 +49,7 @@ const personalProjects = ref(PersonalProjects);
         <div v-show="openSection === 'school'" class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <ProjectCard
             v-for="project in schoolProjects"
-            :key="`s${project.id}`"
-            :id="`s${project.id}`"
+            :key="project.id"
             :project="project"
           />
         </div>
@@ -81,8 +80,8 @@ const personalProjects = ref(PersonalProjects);
   
         <div v-show="openSection === 'work'" class="p-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <ProjectCard
-            v-for="project in workProjects"
-            :key="`p${project.id}`"
+            v-for="project in workProjects.slice(0,workProjects.length-2)"
+            :key="project.id"
             :project="project"
           />
         </div>
@@ -114,7 +113,7 @@ const personalProjects = ref(PersonalProjects);
         <div v-show="openSection === 'personal'" class="p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <ProjectCard
             v-for="project in personalProjects"
-            :key="`p${project.id}`"
+            :key="project.id"
             :project="project"
           />
         </div>

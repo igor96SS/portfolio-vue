@@ -22,7 +22,7 @@ const isActiveLink = (routePath) => {
     <div class="container mx-auto flex justify-between items-center">
       <!-- Logo -->
       <RouterLink to="/" class="flex items-center space-x-3">
-        <span class="text-2xl font-bold hidden md:inline">name</span>
+        <span class="text-2xl font-bold hidden md:inline">Igor Simões</span>
       </RouterLink>
 
       <!-- Navigation Links (Desktop) -->
