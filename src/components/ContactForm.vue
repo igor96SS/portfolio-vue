@@ -45,7 +45,7 @@
                         </div>
 
                         <!-- SEND BUTTON -->
-                        <button type="submit" class="w-full flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                        <button type="submit" value="send" class="w-full flex items-center justify-center bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                             Send
                         </button>
                     </form>
