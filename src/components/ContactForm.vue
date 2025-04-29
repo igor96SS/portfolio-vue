@@ -8,8 +8,8 @@
             <div class="flex">
                 <!-- Left Column -->
                 <div class="flex-1 pr-8">
-                    <form name="contact" method="POST" data-netlify="true" class="space-y-4">
-                        
+                    <form name="contact" method="POST" netlify data-netlify="true" class="space-y-4">
+                        <input type="hidden" name="form-name" value="contact" />
                         <!-- NAME INPUT -->
                         <label for="name-label" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
                         <div class="flex">
