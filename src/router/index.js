@@ -30,6 +30,6 @@ const router = createRouter({
       component: ContactView,
     },
   ],
-})
+});
 
 export default router
