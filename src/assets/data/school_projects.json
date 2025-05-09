@@ -1,7 +1,7 @@
 [
 	{
 		"id":"s1",
-		"title":"Fastuga",
+		"title":"Fastuga Restaurant",
 		"shortDescription":"Web application for restaurant management and customer orders.",
 		"description":"Clients could see the menu and order. The Chefs had access to the orders coming in and the Employees had access to orders that where ready.",
 		"technologies":["Vue.js", "Laravel", "Docker", "Sockets.io", "Mysql", "RestAPI"],
