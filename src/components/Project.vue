@@ -48,7 +48,16 @@ const project = computed(()=> projects.find(p => p.id === projectID));
 
               <h3 class="text-green-800 text-lg font-bold mb-2">Technologies</h3>
 
-              <p class="mb-4">{{project.technologies}}</p>
+              <div class="flex flex-wrap gap-2 mt-2">
+                <span
+                  v-for="tech in project.technologies"
+                  :key="tech"
+                  class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm font-medium"
+                >
+                  {{ tech }}
+                </span>
+
+              </div>
             </div>
           </main>
             </div>
