@@ -6,7 +6,7 @@
 		"description":"",
 		"technologies":["Android", "Java", "Sqlite"],
 		"year":2016,
-		"images": []
+		"images": ["/images/gestao_notas/add_modulo.JPG", "/images/gestao_notas/add_subject.JPG", "/images/gestao_notas/consuldados.JPG", "/images/gestao_notas/delete.JPG", "/images/gestao_notas/home.JPG"]
 	},
 	{
 		"id":"p2",
