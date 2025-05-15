@@ -23,10 +23,24 @@ const next = () => {
   }
 }
 
+const isModalOpen = ref(false)
+const modalImage = ref(null)
+
+function openModal(image) {
+  modalImage.value = image
+  isModalOpen.value = true
+}
+
+function closeModal() {
+  isModalOpen.value = false
+  modalImage.value = null
+}
 
 </script>
 
-<template>
+
+
+<template v-if="isModalOpen">
   
   <section class="bg-gray-300 p-6">
     <div class="container mx-auto max-w-5xl px-12">
@@ -78,6 +92,7 @@ const next = () => {
             :src="project.images[currentIndex]"
             class="w-full h-72 object-contain rounded-2xl shadow-lg"
             :alt="`Image ${currentIndex + 1}`"
+            @click="openModal(project.images[currentIndex])"
           />
         </template>
         <template v-else>
@@ -133,5 +148,17 @@ const next = () => {
       </div>
     </div>
   </section>
+
+  <div
+    v-if="isModalOpen"
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
+    @click="closeModal"
+  >
+    <img
+      :src="modalImage"
+      class="max-w-full max-h-full rounded-lg shadow-xl"
+      @click.stop
+    />
+  </div>
 
 </template>
