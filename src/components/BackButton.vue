@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 
 <template>
     <section>
-      <div class="container m-auto py-6 px-6">
+      <div class="container m-auto py-4 px-6">
         <RouterLink
           to="/projects"
           class="text-blue-500 hover:text-blue-400 flex items-center"
