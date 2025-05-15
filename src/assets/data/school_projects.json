@@ -7,7 +7,7 @@
 		"technologies":["Android", "Java", "Sqlite"],
 		"year":2016,
 		"course":"High School",
-		"images": ["/images/school_projects/gestao_notas/add_mod.JPG", "/images/school_projects/gestao_notas/add_subject.JPG", "/images/school_projects/gestao_notas/consuldados.JPG", "/images/school_projects/gestao_notas/delete.JPG", "/images/school_projects/gestao_notas/home.JPG"]
+		"images": ["/images/school_projects/gestao_notas/home.JPG", "/images/school_projects/gestao_notas/add_subject.JPG", "/images/school_projects/gestao_notas/add_mod.JPG", "/images/school_projects/gestao_notas/consuldados.JPG", "/images/school_projects/gestao_notas/delete.JPG"]
 	},
 	{
 		"id":"s2",
