@@ -3,11 +3,11 @@
 		"id":"s1",
 		"title":"GesCalc",
 		"shortDescription":"Android mobile application to manage school grades",
-		"description":"",
+		"description": "Android application for managing school grades.\n\nThis app allows users to easily add, edit, delete, and view their grades, organized by subject and module. Designed for students who want to keep track of their academic progress in a simple and efficient way.",
 		"technologies":["Android", "Java", "Sqlite"],
 		"year":2016,
 		"course":"High School",
-		"images": ["/images/personal_projects/gestao_notas/add_mod.JPG", "/images/personal_projects/gestao_notas/add_subject.JPG", "/images/personal_projects/gestao_notas/consuldados.JPG", "/images/personal_projects/gestao_notas/delete.JPG", "/images/personal_projects/gestao_notas/home.JPG"]
+		"images": ["/images/school_projects/gestao_notas/add_mod.JPG", "/images/school_projects/gestao_notas/add_subject.JPG", "/images/school_projects/gestao_notas/consuldados.JPG", "/images/school_projects/gestao_notas/delete.JPG", "/images/school_projects/gestao_notas/home.JPG"]
 	},
 	{
 		"id":"s2",
@@ -57,7 +57,6 @@
 		"technologies":["C/C++", "ESP32","IoT", "Vue.js", "Laravel", "Docker", "MariaDB", "RestAPI", "Redis", "Chart.js"],
 		"year":2023,
 		"course":"Computer Engineering",
-		"images":[],
-		"videos":[]
+		"images":["/images/school_projects/final_project/video_projeto.mp4","/images/school_projects/final_project/user_register.png","/images/school_projects/final_project/login.png","/images/school_projects/final_project/remove_account.png", "/images/school_projects/final_project/two-factor_auth.png", "/images/school_projects/final_project/sessions.png", "/images/school_projects/final_project/profile.png","/images/school_projects/final_project/users_list.png", "/images/school_projects/final_project/user_profile.png", "/images/school_projects/final_project/regist_system.png", "/images/school_projects/final_project/list_systems.png", "/images/school_projects/final_project/equipments_list.png", "/images/school_projects/final_project/power_graph.png", "/images/school_projects/final_project/energy_diagram.png", "/images/school_projects/final_project/sensors_info.png"]
 	}
 ]
