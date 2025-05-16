@@ -1,7 +1,4 @@
-import ContactView from '@/views/ContactView.vue'
 import HomeView from '@/views/HomeView.vue'
-import ProjectsView from '@/views/ProjectsView.vue'
-import ProjectView from '@/views/ProjectView.vue';
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -15,12 +12,13 @@ const router = createRouter({
     {
       path: '/projects',
       name: 'projects',
-      component: ProjectsView,
+      component: () => import('../views/ProjectsView.vue')
     },
     {
       path: '/projects/:id',
       name: 'project',
-      component: ProjectView,
+      component: () => import('../views/ProjectView.vue')
+
     },
     {
       path: '/about',
@@ -28,12 +26,12 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      //component: () => import('../views/AboutView.vue'),
+      component: () => import('../views/AboutView.vue'),
     },
     {
       path: '/contact',
       name: 'contact',
-      component: ContactView,
+      component: () => import('../views/ContactView.vue')
     },
   ],
 });
