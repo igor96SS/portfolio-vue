@@ -20,7 +20,7 @@ onMounted(() => {
           <h1
             class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
           >
-          { \ } Still in Development { / }
+          { \ } In Development { / }
           </h1>
         </div>
       </div>

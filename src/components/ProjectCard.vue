@@ -29,7 +29,7 @@ const formattedTechnologies = computed(() => {
     <div class="mt-auto pt-3">
       <RouterLink
         :to="'/projects/' + project.id"
-        class="inline-block bg-blue-300 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm"
+        class="inline-block bg-sky-500 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm"
       >
         Read More
       </RouterLink>

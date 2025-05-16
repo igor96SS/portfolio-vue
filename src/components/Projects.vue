@@ -17,12 +17,16 @@ const schoolProjects = ref(SchoolProjects);
 const workProjects = ref(WorkProjects);
 const personalProjects = ref(PersonalProjects);
 
-
 </script>
 
 <template>
     <div class="max-w-5xl mx-auto py-10 px-4">
-      
+      <div class="flex mb-6 justify-center text-lg items-center space-x-2">
+        <span class="text-4xl">⚠️</span>
+        <span>Some Projects still incomplete</span>
+        <span class="text-4xl">⚠️</span>
+      </div>
+
       <!-- SCHOOL PROJECTS -->
       <div class="mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
         <button
@@ -121,4 +125,3 @@ const personalProjects = ref(PersonalProjects);
       
     </div>
 </template>
-  
