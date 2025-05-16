@@ -22,7 +22,9 @@ const personalProjects = ref(PersonalProjects);
 
 <template>
     <div class="max-w-5xl mx-auto py-10 px-4">
-      
+      <div class="flex mb-6 justify-center text-lg">
+        ⚠️ Some Projects still incomplete
+      </div>
       <!-- SCHOOL PROJECTS -->
       <div class="mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
         <button
