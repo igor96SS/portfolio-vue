@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard.vue'
 import { ref } from 'vue'
 
 // Toggle which section is open
-const openSection = ref(null)
+const openSection = ref('school')
 
 const toggleSection = (section) => {
   openSection.value = openSection.value === section ? null : section
@@ -28,7 +28,7 @@ const personalProjects = ref(PersonalProjects);
       </div>
 
       <!-- SCHOOL PROJECTS -->
-      <div class="mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
+      <div class="bg-gray-300 mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
         <button
           @click="toggleSection('school')"
           class="w-full flex justify-between items-center p-4 text-lg font-medium bg-gray-100 dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -60,7 +60,7 @@ const personalProjects = ref(PersonalProjects);
       </div>
   
       <!-- WORK PROJECTS -->
-      <div class="mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
+      <div class="bg-gray-300 mb-6 border border-gray-300 dark:border-gray-700 rounded-lg">
         <button
           @click="toggleSection('work')"
           class="w-full flex justify-between items-center p-4 text-lg font-medium bg-gray-100 dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -92,7 +92,7 @@ const personalProjects = ref(PersonalProjects);
       </div>
 
       <!-- Personal PROJECTS -->
-      <div class="border border-gray-300 dark:border-gray-700 rounded-lg">
+      <div class="bg-gray-300 border border-gray-300 dark:border-gray-700 rounded-lg">
         <button
           @click="toggleSection('personal')"
           class="w-full flex justify-between items-center p-4 text-lg font-medium bg-gray-100 dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
