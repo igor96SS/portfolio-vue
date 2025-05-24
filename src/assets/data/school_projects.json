@@ -1,7 +1,7 @@
 [
 	{
 		"id":"s1",
-		"title":"GesCalc",
+		"title":"Grades Management",
 		"shortDescription":"Android mobile application to manage school grades",
 		"description": "Android application for managing school grades.\n\nThis app allows users to easily add, edit, delete, and view their grades, organized by subject and module. Designed for students who want to keep track of their academic progress in a simple and efficient way.",
 		"technologies":["Android", "Java", "Sqlite"],
