@@ -51,7 +51,7 @@ const toggleSection = (section) => {
                                 </li>
                                 <li>
                                     <p class="text-gray-600 dark:text-white text-md mb-4">
-                                        I'm from Portugal, more precisely from Figueira da Foz. In my free time, I enjoy cycling, learning guitar, watching movies, and going to the theatre.
+                                        I'm from Portugal, more precisely from Figueira da Foz (Currently alternating between Figueira and Lisbon). In my free time, I enjoy cycling, learning guitar, watching movies, and going to the theatre.
                                     </p>
                                 </li>
                                 <li>
