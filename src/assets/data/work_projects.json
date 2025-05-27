@@ -2,8 +2,8 @@
 	{
 		"id":"w1",
 		"title":"Rest API",
-		"shortDescription":"",
-		"description":"",
+		"shortDescription":"Refactor of an Rest API",
+		"description": "The objective of this project was to refactor an existing API developed in vanilla PHP to use the Lumen micro-framework (based on Laravel).\n\nThis approach improved productivity, reduced code complexity, increased compatibility with database systems, and provided protection against SQL injection.",
 		"technologies":["Lumen/Laravel"],
 		"year":2019
 	},
@@ -11,15 +11,15 @@
 		"id":"w2",
 		"title":"Android PoS",
 		"shortDescription":"Android mobile application of a point of sale",
-		"description":"",
-		"technologies":["Android", "Kotlin", "MVP", "ObjectBox", "NoSQL"],
+		"description": "This project consisted of the development of an Android Point of Sale (POS) application. Most of the time, the application was used offline, so it was designed with a local database. The application supported connection to Bluetooth thermal printers for invoice printing, and it was also capable of generating the SAF-T (Standard Audit File for Tax Purposes).",
+		"technologies":["Android", "Kotlin", "MVP", "ObjectBox", "NoSQL", "XML"],
 		"year":2019
 	},
 	{
 		"id":"w3",
 		"title":"CRM backoffice",
-		"shortDescription":"",
-		"description":"",
+		"shortDescription":"Backoffice website of a CRM (Client Relationship Management)",
+		"description": "A website where a company could manage its vendors, businesses, potential clients, and monitor competitor companies. It also allowed the scheduling of company tours.",
 		"technologies":["ReactJS", "Microsof SQL Server", "Lumen/Laravel", "RestAPI"],
 		"year":2019
 	},
