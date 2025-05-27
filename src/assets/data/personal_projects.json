@@ -13,7 +13,7 @@
 		"id":"p2",
 		"title":"Movies and Series",
 		"shortDescription":"Web application to register movies and series",
-		"description":"",
+		"description": "Personal project of a website where it is possible to register the name and other information about movies and series. This website was developed while learning to use the technologies mentioned below.",
 		"technologies":[".Net Core Razor Pages", ".Net Core Web API", "C#", "Rest Api", "Microsof SQL Server"],
 		"year":2024,
 		"images": []

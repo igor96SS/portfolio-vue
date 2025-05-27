@@ -42,7 +42,7 @@
 	{
 		"id":"s5",
 		"title":"AI Mummy Maze",
-		"shortDescription":"",
+		"shortDescription":"Game played by AI",
 		"description":"An application that can play the Mummy Maze game using diferent types of search algorithms",
 		"technologies":["Java"],
 		"year":2022,
@@ -53,7 +53,7 @@
 		"id":"s6",
 		"title":"Management, Monitoring, and Intelligent Control of Photovoltaic Energy",
 		"shortDescription":"Web application to display data collected from Solar Panels using sensors and IoT devices.",
-		"description":"",
+		"description": "This project was my Bachelor's final project and consisted of two distinct stages. The first stage involved research on solar panels and the components that can be connected to them to improve energy production and usage. The second stage focused on implementing a prototype for testing and demonstration purposes. Voltage and current sensors were used to collect data from the panels and battery, which were connected to an ESP32 that sent the data to a database. A website was then used to visualize the collected data and manage the connected equipment. It was also possible to manually turn connected devices on or off.",
 		"technologies":["C/C++", "ESP32","IoT", "Vue.js", "Laravel", "Docker", "MariaDB", "RestAPI", "Redis", "Chart.js"],
 		"year":2023,
 		"course":"Computer Engineering",
