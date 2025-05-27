@@ -2,7 +2,7 @@
 	{
 		"id":"p1",
 		"title":"Cálculo Sinais",
-		"shortDescription":"",
+		"shortDescription":"Linear and non-linear industrial flow calculations",
 		"description":"",
 		"technologies":["Android", "Java", "Kotlin"],
 		"year":2019,
