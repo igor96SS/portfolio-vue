@@ -2,7 +2,7 @@
 	{
 		"id":"p1",
 		"title":"Cálculo Sinais",
-		"shortDescription":"Linear and non-linear industrial flow calculations",
+		"shortDescription":"Android application for Linear and non-linear industrial flow calculations",
 		"description":"",
 		"technologies":["Android", "Java", "Kotlin"],
 		"year":2019,
@@ -17,6 +17,24 @@
 		"technologies":[".Net Core Razor Pages", ".Net Core Web API", "C#", "Rest Api", "Microsof SQL Server"],
 		"year":2024,
 		"images": []
+	},
+	{
+		"id":"p3",
+		"title":"Job Applications Manager",
+		"shortDescription":"Android Application to manage job applications",
+		"description": "With this application it is possible to register the jobs that you applied for as an easy way to keep track of the positions and companies to where you applied.",
+		"description2": "To download the app: ",
+		"description3": "Learn More about the app: ",
+		"url": "https://play.google.com/store/apps/details?id=pt.iscode.gestorcandidaturas",
+		"urlTitle": "Job Applications Manager",
+		"url1": "https://github.com/igor96SS/jobtracker/blob/main/README.md",
+		"url1Title": "Github readme",
+		"technologies":["Android", "Kotlin", "MVVM", "RoomDatabase"],
+		"year":2025,
+		"images": ["/images/personal_projects/job_applications_manager/ic_launcher_512.png","/images/personal_projects/job_applications_manager/func_graph.png",
+		"/images/personal_projects/job_applications_manager/dark_main.jpg","/images/personal_projects/job_applications_manager/dark_list.jpg",
+		"/images/personal_projects/job_applications_manager/light_list.jpg","/images/personal_projects/job_applications_manager/dark_details.jpg",
+		"/images/personal_projects/job_applications_manager/light_details.jpg","/images/personal_projects/job_applications_manager/dark_add.jpg"]
 	}
 	
 ]

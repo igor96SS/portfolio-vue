@@ -62,8 +62,22 @@ function closeModal() {
             Project Description
           </h3>
 
-          <p class="mb-4">
+          <p class="mb-4" >
             {{project.description}}
+          </p>
+
+          <p class="mb-4" v-if="project.description2">
+            {{project.description2}}
+            <a :href="project.url" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+              {{project.urlTitle}}
+            </a>
+          </p>
+
+          <p class="mb-4" v-if="project.description3">
+            {{project.description3}}
+            <a v-if="project.url1" :href="project.url1" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">
+              {{project.url1Title}}
+            </a>
           </p>
 
           <h3 class="text-amber-600 text-lg font-bold mb-2">Technologies</h3>
